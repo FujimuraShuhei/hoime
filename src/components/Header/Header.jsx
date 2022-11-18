@@ -9,7 +9,7 @@ const Header = () => {
         <Link href="#">Hoime</Link>
       </h1>
       <nav className={styles.header__menu}>
-        <ul className={styles.nav}>
+        <ul className={styles.header__nav}>
           <li>
             <Link href="#">ホーム</Link>
           </li>
@@ -33,6 +33,11 @@ const Header = () => {
           ご相談はこちら
         </Link>
       </nav>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </header>
   );
 };

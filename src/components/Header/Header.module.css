@@ -10,7 +10,7 @@
   justify-content: space-between;
   margin: 0 auto;
   height: 80px;
-  max-width: 1100px;
+  max-width:1100px;
   position: sticky;
   font-size: 1.4rem;
 }
@@ -21,15 +21,16 @@
   font-style: italic;
   letter-spacing: 3px;
 }
-.nav {
+.header__nav {
   display: flex;
+  justify-content: flex-end;
   margin-left: auto;
 }
 .header__menu {
   display: flex;
   align-items: center;
 }
-.nav li {
+.header__nav li {
   margin-left: 32px;
   list-style: none;
 }
@@ -40,4 +41,10 @@
   font-weight: bold;
   padding: 20px 40px;
   margin-left: 40px;
+}
+
+
+@media screen and (max-width:1079px){
+  .header__menu{
+  }
 }
