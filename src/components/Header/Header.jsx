@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import { ReactBurgerMenu } from 'react-burger-menu';
 import styles from './Header.module.css';
 
 const Header = () => {

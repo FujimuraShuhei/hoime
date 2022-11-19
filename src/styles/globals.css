@@ -6,13 +6,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: '游ゴシック体', YuGothic, '游ゴシック', 'Yu Gothic', sans-serif;
   font-size: 10px;
 }
-h3{
+h3 {
   letter-spacing: 3px;
 }
-p{
+p {
   letter-spacing: 2px;
 }
 
@@ -24,6 +24,48 @@ a {
 * {
   box-sizing: border-box;
 }
-section{
+section {
   margin-bottom: 60px;
+}
+.section__h2 {
+  position: relative;
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section__h2 span {
+  position: relative;
+  z-index: 2;
+}
+
+.section__h2::before {
+  margin: 0 auto;
+  content: attr(data-en);
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 20%;
+  left: 43%;
+  opacity: 0.4;
+  color: #ffc121;
+  font-size: 70px;
+  font-weight: 400;
+  font-family: luxus-brut, cursive;
+  font-style: italic;
+}
+@media screen and (max-width:1099px){
+  .section__h2::before{
+    left: 42%;
+  }
+}
+@media screen and (max-width:739px){
+  .section__h2::before{
+    left: 38%;
+  }
+}
+@media screen and (max-width:499px){
+  .section__h2::before{
+    left: 32%;
+  }
 }

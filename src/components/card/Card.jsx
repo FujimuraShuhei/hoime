@@ -4,6 +4,7 @@ import styles from './Card.module.css';
 const Card = () => {
   return (
     <section className={styles.card__box}>
+      <h2 className="section__h2" data-en="Service">サービス内容</h2>
       <div className={styles.container}>
         <div className={`${styles.card} ${styles.card01}`}>
           <div className={styles.box}>
