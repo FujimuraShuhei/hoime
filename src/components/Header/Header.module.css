@@ -139,7 +139,7 @@
     z-index: 1;
     opacity: 0;
     background: rgba(0, 0, 0, 0.9);
-    transition: 0.2s ease-in;
+    transition: 0.3s ease-in;
     color: #fff;
   }
   .checkbox__hidden:checked ~ .drawer__menu {
@@ -158,5 +158,7 @@
     margin-bottom: 50px;
     transform: translate(-200px);
     transition: transform 1s ease;
+    font-weight: bold;
+    font-size: 1.8rem;
   }
 }
