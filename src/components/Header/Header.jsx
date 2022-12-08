@@ -7,7 +7,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.wrapper}>
         <h1 className={styles.header__logo}>
-          <Link href="/">Hoime</Link>
+          <Link href="/">Shumi</Link>
         </h1>
         <nav className={styles.header__menu}>
           <ul className={styles.header__nav}>
@@ -15,26 +15,23 @@ const Header = () => {
               <Link href="/">ホーム</Link>
             </li>
             <li>
-              <Link href="/website">採用サイト制作</Link>
+              <Link href="/website">サイト制作</Link>
             </li>
             <li>
-              <Link href="#">採用マーケティング</Link>
+              <Link href="#">サイト制作の流れについて</Link>
             </li>
             <li>
-              <Link href="#">採用コンサル</Link>
+              <Link href="#">ブログ</Link>
             </li>
             <li>
               <Link href="#">お役立ち資料</Link>
-            </li>
-            <li>
-              <Link href="#">料金</Link>
             </li>
             <li>
               <Link href="#">よくある質問</Link>
             </li>
           </ul>
           <Link className={styles.header__btn} href="#">
-            ご相談はこちら
+            お見積りはこちら
           </Link>
         </nav>
         <DrawerMenu />
