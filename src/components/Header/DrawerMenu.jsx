@@ -19,27 +19,19 @@ const DrawerMenu = () => {
               <Link href="/">ホーム</Link>
             </li>
             <li>
-              <Link href="/website">採用サイト制作</Link>
+              <Link href="/website">サイト制作</Link>
             </li>
             <li>
-              <Link href="/marketing">採用マーケティング</Link>
+              <Link href="/flow">制作の流れについて</Link>
             </li>
             <li>
-              <Link href="/consulting">採用コンサル</Link>
+              <Link href="/blogs">ブログ</Link>
             </li>
             <li>
-              <Link href="/shiryo">お役立ち資料</Link>
+              <Link href="/">お役立ち資料</Link>
             </li>
             <li>
-              <Link href="/price">料金</Link>
-            </li>
-            <li>
-              <Link href="/faq">よくある質問</Link>
-            </li>
-            <li>
-              <Link className={styles.drawer__contact} href="/contact">
-                ご相談はこちら
-              </Link>
+              <Link href="#">よくある質問</Link>
             </li>
           </ul>
         </nav>

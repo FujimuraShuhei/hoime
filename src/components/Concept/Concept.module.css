@@ -1,0 +1,108 @@
+.h2__ttl {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.textbox {
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+.text {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+.inner_container {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  gap: 0 60px;
+}
+.button__section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button__57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #212121;
+  color: #212121;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 32px 18px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 4px;
+  font-weight: bold;
+  box-shadow: 6px 8px 21px -8px #cfcfcf;
+}
+
+.button__57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button__57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button__57:after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #212121;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button__57:hover:after {
+  transform: skewY(8.3deg) scaleY(3);
+}
+
+.button__57:hover span:last-child {
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+  transition-delay: 200ms;
+}
+@media screen and (max-width: 599px) {
+  .inner_container {
+    grid-template-columns: 1fr;
+    margin: 0 40px;
+    gap: 32px;
+  }
+  .text {
+    font-size: 1.6rem;
+  }
+}

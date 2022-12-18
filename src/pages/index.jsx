@@ -2,6 +2,8 @@
 /* eslint-disable @next/next/google-font-display */
 import Head from 'next/head';
 import Card from '../components/card/Card';
+import Concept from '../components/Concept/Concept';
+import Cta from '../components/Cta/Cta';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -16,7 +18,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <Card />
+        <Concept />
       </main>
+      <Cta />
     </div>
   );
 }

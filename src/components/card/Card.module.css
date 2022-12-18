@@ -26,7 +26,7 @@
   transition: all 1s;
 }
 .container .card .box:hover {
-  background: rgb(254 249 195);
+  background: #63ffef;
   transition: all 0.3s ease-in;
 }
 .container .card .box {
@@ -40,17 +40,17 @@
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   transition: 0.5s;
 }
 .container .card:hover .box {
   transform: translateY(-50px);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-image: linear-gradient(to right, #63ffef 0%, #25c7e4 100%);
   transition: 0.5s;
 }
 .container .card .box .content {
-  padding: 10px;
+  padding: 100px 20px;
   text-align: center;
   transition: 0.5s;
 }
@@ -149,4 +149,7 @@
   opacity: 1;
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
   transition-delay: 200ms;
+}
+.content__text{
+  text-align: left;
 }

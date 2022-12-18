@@ -10,8 +10,8 @@ const Card = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>01</h2>
-              <h3>タイトル</h3>
-              <p>テキストテキストテキストテキストテキストテキスト</p>
+              <h3>サイト制作</h3>
+              <p className={styles.content__text}>コーポレートサイト、採用特化ページやECサイトなど新規作成やサイトリニューアルにも対応いたします。</p>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@ const Card = () => {
           <div className={styles.box}>
             <div className={styles.content}>
               <h2>02</h2>
-              <h3>タイトル</h3>
-              <p>テキストテキストテキストテキストテキストテキスト</p>
+              <h3>戦略立案プランニング</h3>
+              <p className={styles.content__text}>競合他社にWebブランディングで戦うにはどういうことをしていくのが良いかを調査・分析をして道筋を決めていきます。</p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@ const Card = () => {
             <div className={styles.content}>
               <h2>03</h2>
               <h3>タイトル</h3>
-              <p>テキストテキストテキストテキストテキストテキスト</p>
+              <p className={styles.content__text}>テキストテキストテキストテキストテキストテキスト</p>
             </div>
           </div>
         </div>

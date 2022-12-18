@@ -18,10 +18,10 @@ const Header = () => {
               <Link href="/website">サイト制作</Link>
             </li>
             <li>
-              <Link href="#">サイト制作の流れについて</Link>
+              <Link href="/flow">制作の流れについて</Link>
             </li>
             <li>
-              <Link href="#">ブログ</Link>
+              <Link href="/blogs">ブログ</Link>
             </li>
             <li>
               <Link href="#">お役立ち資料</Link>

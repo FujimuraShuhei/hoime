@@ -1,0 +1,38 @@
+.cta__container {
+  height: 400px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.download__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: rgb(245, 245, 245);
+}
+.download__box h2, .contact__box h2 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  font-style: italic;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 2px;
+}
+.download__box p, .contact__box p{
+    font-size: 1.2rem;
+}
+.contact__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+  background: #212121;
+}
+@media screen and (max-width: 599px) {
+    .cta__container {
+        height: 300px;
+    }
+}

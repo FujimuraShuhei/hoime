@@ -6,7 +6,6 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Header />
-      <Card />
       <Component {...pageProps} />
     </div>
   );
